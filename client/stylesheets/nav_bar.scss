@@ -1,0 +1,31 @@
+/* Styles related to the header go here */
+
+@import "globals";
+
+.nav-bar-wrapper {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: $SUB_HEADER_FONT_SIZE;
+}
+
+.nav-bar-wrapper .left-align {
+  text-align: left;
+}
+
+.nav-bar-wrapper a {
+  text-decoration: none;
+  color: $BLUE;
+}
+
+.nav-bar-wrapper a:hover {
+  color: $BROWN;
+}
+
+.nav-bar-wrapper a.dark-background {
+  color: white;
+}
+
+.nav-bar-wrapper a.dark-background:hover {
+  color: $BROWN;
+}

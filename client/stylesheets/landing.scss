@@ -1,0 +1,37 @@
+/* Styles related to the header go here */
+
+@import "globals";
+
+#landing-wrapper {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: left;
+  margin-bottom: 5%;
+  margin-right: 3%;
+  font-size: $SUB_HEADER_FONT_SIZE;
+}
+
+#landing-wrapper h2 {
+  font-size: $HEADER_FONT_SIZE;
+  margin: 20px 0px 20px 0px;
+  color: white;
+}
+
+.arrow-down {
+  max-width: 50px;
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  right: 50%;
+  text-align: center;
+}
+
+.arrown-down:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: $BLUE;
+}

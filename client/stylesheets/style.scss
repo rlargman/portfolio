@@ -1,0 +1,18 @@
+/* Styles related to the whole app go here */
+
+@import "globals";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $MAIN_FONT;
+  font-size: $BODY_FONT_SIZE;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#main-wrapper {
+  font-family: $MAIN_FONT;
+}
