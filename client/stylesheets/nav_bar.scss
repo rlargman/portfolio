@@ -20,7 +20,6 @@
 }
 
 .nav-bar-wrapper a:hover {
-  color: $CHARCOAL;
   cursor: pointer; 
   cursor: hand;
 }
@@ -29,6 +28,22 @@
   color: white;
 }
 
-.nav-bar-wrapper a.dark-background:hover {
-  color: $CHARCOAL;
+.nav-bar-wrapper a.about-me-link:hover {
+  color: $BROWN;
+}
+
+.nav-bar-wrapper a.work-link:hover {
+  color: $RED;
+}
+
+.nav-bar-wrapper a.education-link:hover {
+  color: $ORANGE;
+}
+
+.nav-bar-wrapper a.skills-link:hover {
+  color: $YELLOW;
+}
+
+.nav-bar-wrapper a.projects-link:hover {
+  color: $GREEN;
 }

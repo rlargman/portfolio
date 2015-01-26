@@ -6,7 +6,7 @@ $TIMELINE_COLORS: $PURPLE, $BLUE, $GREEN, $YELLOW, $ORANGE, $RED, $PINK;
 $LENGTH: length($TIMELINE_COLORS);
 
 #work-page-wrapper {
-  margin-top: 20px;
+  margin: 20px 0px 0px 20px;
   color: $CHARCOAL;
   box-sizing: padding-box;
 }
@@ -36,9 +36,9 @@ $LENGTH: length($TIMELINE_COLORS);
 }
 
 #work-page-wrapper #ice-cream {
-  max-width: 15%;
+  max-width: 20%;
   position: fixed;
-  bottom: 10px;
+  bottom: 20px;
   right: 10px;
 }
 

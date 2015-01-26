@@ -2,14 +2,18 @@
 
 @import "globals";
 
+.landing-background {
+  background-image: url("portfolio_background_5.png");
+}
+
 #landing-wrapper {
   color: white;
   position: absolute;
   bottom: 0;
-  right: 0;
   text-align: left;
-  margin-bottom: 5%;
-  margin-right: 3%;
+  margin-bottom: 2%;
+  margin-left: 30%;  
+  margin-right: 2%;
   font-size: $SUB_HEADER_FONT_SIZE;
 }
 
@@ -19,19 +23,11 @@
   color: white;
 }
 
-.arrow-down {
-  max-width: 50px;
-  margin-top: 10px;
-  color: white;
-  text-decoration: none;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  right: 50%;
-  text-align: center;
+.email {
+  line-height: 50px;
 }
 
-.arrown-down:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: $BLUE;
+.email img {
+  max-height: 40px;
+  padding-right: 10px
 }

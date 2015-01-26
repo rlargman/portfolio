@@ -2,7 +2,7 @@ Template.navBar.events({
 
   "click .work-link": function(event) {
     event.preventDefault();
-    $("body").css("background-image", 'none');
+    $("#main-wrapper").removeClass("landing-background");
     $(".nav-bar-wrapper a").removeClass("dark-background");    
     Router.go('workPage');
   },

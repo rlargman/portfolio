@@ -6,9 +6,9 @@ Template.workPage.events({
     while (!$target.hasClass("section-header-wrapper")) {
       $target = $target.parent();
     }
-    //var $target = $(target);
-    console.log($target);
+
     $target.next().toggleClass("hidden");
   }
 
 });
+

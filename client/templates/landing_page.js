@@ -1,4 +1,4 @@
 Template.landingPage.rendered = function() {
-  $("body").css("background-image", 'url("portfolio_background_5.png")');
+  $("#main-wrapper").addClass("landing-background");
   $(".nav-bar-wrapper a").addClass("dark-background");
 }
