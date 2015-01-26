@@ -5,7 +5,7 @@
 .nav-bar-wrapper {
   margin-top: 10px;
   margin-left: 20px;
-  text-align: center;
+  text-align: right;
   font-size: $SUB_HEADER_FONT_SIZE;
 }
 
@@ -16,10 +16,13 @@
 .nav-bar-wrapper a {
   text-decoration: none;
   color: $BLUE;
+  margin-right: 30px;
 }
 
 .nav-bar-wrapper a:hover {
-  color: $BROWN;
+  color: $CHARCOAL;
+  cursor: pointer; 
+  cursor: hand;
 }
 
 .nav-bar-wrapper a.dark-background {
@@ -27,5 +30,5 @@
 }
 
 .nav-bar-wrapper a.dark-background:hover {
-  color: $BROWN;
+  color: $CHARCOAL;
 }

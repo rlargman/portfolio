@@ -1,10 +1,10 @@
 Template.navBar.events({
 
-  "click .skills-link": function(event) {
+  "click .work-link": function(event) {
     event.preventDefault();
     $("body").css("background-image", 'none');
     $(".nav-bar-wrapper a").removeClass("dark-background");    
-    Router.go('businessPage');
+    Router.go('workPage');
   },
 
   "click .about-me-link": function(event) {

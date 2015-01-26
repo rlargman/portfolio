@@ -1,0 +1,64 @@
+/* Styles related to the header go here */
+
+@import "globals";
+
+$TIMELINE_COLORS: $PURPLE, $BLUE, $GREEN, $YELLOW, $ORANGE, $RED, $PINK;
+$LENGTH: length($TIMELINE_COLORS);
+
+#work-page-wrapper {
+  margin-top: 20px;
+  color: $CHARCOAL;
+  box-sizing: padding-box;
+}
+
+#work-page-wrapper .work-section {
+  margin-bottom: 20px;
+}
+
+#work-page-wrapper .section-header {
+  font-size: $SUB_HEADER_FONT_SIZE;
+  padding: 10px 0px 10px 0px;
+}
+
+#work-page-wrapper .section-sub-header {
+  font-size: $BODY_FONT_SIZE;
+  padding: 0px 0px 10px 0px;
+}
+
+#work-page-wrapper .section-body {
+  font-family: $BODY_FONT;
+  font-size: $BODY_FONT_SIZE;
+  padding: 0px 0px 10px 0px;
+}
+
+#work-page-wrapper .work-logo-img {
+  max-height: 100px;
+}
+
+#work-page-wrapper #ice-cream {
+  max-width: 15%;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+#groupon-section {
+  border-left: 5px solid nth($TIMELINE_COLORS, $LENGTH);
+}
+
+#cs106b-tutor-section {
+  border-left: 5px solid nth($TIMELINE_COLORS, (($LENGTH - 1) % $LENGTH));
+}
+
+#cs42-section {
+  border-left: 5px solid nth($TIMELINE_COLORS, (($LENGTH - 2) % $LENGTH));
+}
+
+#facebook-section {
+  border-left: 5px solid nth($TIMELINE_COLORS, (($LENGTH - 3) % $LENGTH));
+}
+
+#airbnb-section {
+  border-left: 5px solid nth($TIMELINE_COLORS, (($LENGTH - 4) % $LENGTH));
+}
+
